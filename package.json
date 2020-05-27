@@ -1,0 +1,22 @@
+{
+  "name": "restify",
+  "version": "1.0.0",
+  "description": "implementation restify by typescript and mongodb",
+  "main": "main.ts",
+  "scripts": {
+    "test": "hello world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miralagustiansyam/restify.git"
+  },
+  "author": "miralagustiansyam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miralagustiansyam/restify/issues"
+  },
+  "homepage": "https://github.com/miralagustiansyam/restify#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
