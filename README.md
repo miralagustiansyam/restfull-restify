@@ -1,2 +1,2 @@
-# restify
-Restfull api with restify by typescript and mongodb
+# TypeScript with restify
+Restfull api with typescript restify and mongodb
