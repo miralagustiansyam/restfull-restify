@@ -1,22 +1,34 @@
 {
-  "name": "restify",
+  "name": "restffull-restify",
   "version": "1.0.0",
   "description": "implementation restify by typescript and mongodb",
-  "main": "main.ts",
+  "main": "main.js",
   "scripts": {
+    "tsc": "rm -rf build/ && tsc",
+    "ts": "rm -rf build/ && tsc -w",
+    "dev": "nodemon ./build/main.js",
     "test": "hello world"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miralagustiansyam/restify.git"
+    "url": "git@github.com:miralagustiansyam/restfull-restify.git"
   },
   "author": "miralagustiansyam",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/miralagustiansyam/restify/issues"
+    "url": "https://github.com/miralagustiansyam/rrestfull-estify/issues"
   },
-  "homepage": "https://github.com/miralagustiansyam/restify#readme",
+  "homepage": "https://github.com/miralagustiansyam/restfull-restify#readme",
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "@types/restify": "^8.4.2",
+    "@types/restify-errors": "^4.3.3",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.16",
+    "restify": "^8.5.1",
+    "restify-errors": "^8.0.2"
   }
 }
