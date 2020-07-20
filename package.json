@@ -31,7 +31,7 @@
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "dotenv": "^8.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mongoose": "^5.9.16",
     "mongoose-timestamp": "^0.6.0",
     "restify": "^8.5.1",
